@@ -27,7 +27,8 @@ def query_text(query):
 
 while True:
     try:
-      bot.polling(none_stop=True)
+        print("STARTED")
+        bot.polling(none_stop=True)
     except: 
       print('bolt')
       logging.error('error: {}'.format(sys.exc_info()[0]))
